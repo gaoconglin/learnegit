@@ -1,0 +1,6 @@
+java命名规范：
+类名首字母必须大写，采用驼峰式命名。
+eg：DemoProduct 或 Demo_Product
+
+页面命名首字母小写，建议全部采用小写。
+eg：prodect_list 或 productList

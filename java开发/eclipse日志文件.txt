@@ -1,0 +1,1 @@
+找到eclipse的工作空间 ->> .metadata ->.log 文件 ，打开这个文件即可。

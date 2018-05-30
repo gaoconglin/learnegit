@@ -1,0 +1,6 @@
+springmvc 中 @Controller 和 @RestController的区别
+一直使用springmvc的时候就记得返回string或者json的话就直接用@RestController。如果想要页面跳转的话，就使用@Controller。
+
+一开始就有个疑问，就是我想在一个类中既能返回string或者json又能进行页面跳转怎么办。解决方法如下：
+@RestController = @Controller + @ResponseBody。
+所以，以后定义controller的时候，可以直接使用@Controller，如果需要返回json可以直接在方法中添加@ResponseBody即可。
